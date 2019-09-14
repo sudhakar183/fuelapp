@@ -3,7 +3,7 @@
 
 Several notes:
 
-1. Startup. App can be easy dockerized or just put running on local machine. The jar archive for easy and fast trial is present.
+1. Startup. App can be easily dockerized or just put running on local machine. The jar archive for easy and fast trial is present.
 2. Database. App uses embedded H2 database, which works in runtime (only) for convenience reasons. App can be easily migrated to another database by putting corresponding maven dependency and spring db driver in application.properties.
 3. Service layer is covered by tests. 
 4. Access REST API via swagger interface: `localhost:8080/swagger-ui.html`
